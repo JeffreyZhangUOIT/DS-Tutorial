@@ -6,13 +6,21 @@ It’s not a compiled program language because in Python the runtime doesn't kno
 Q2: Python is a dynamically typed language, explain what that means and also explain what “duck typing” means.
 
 A: It means that each variable is binded to an object that can be coerced to an unrelated type. Duck typing allowes people to use
-methods of an object on their variable without a certain type of variable. 
+methods of an object on their variable even if that variable does not have a defined type. 
 
 Q3: Python is also a strongly typed language, research what this means in Python and give an example demonstrating
 the issues of strongly typed languages using one line of Python code.
 
-A: 
+A: All data type will be explicitly defined, which helps reduce the number of errors. Certain operations may be allowable 
+only with certain data types. The following line will produce an error: name = "forty" + 2
 
 Q4: Does Python require curly braces? What is the purpose of indentation in Python? Can you mix and match indentation using space and tab characters?
 
 A: No. It requires indentation. Indentation will aid in formatting the code for methods and makes it look clean and easy to read. You cannot mix and match indentation using space and tab characters. They will be interpretted differently.
+
+Q5: Python has programming and style guidelines in particular one referred to as
+PEP 8​ that instruct programmers how to write Python code so that it has a
+consistent style with other programmers. Read through the following article and
+discuss three important guidelines for writing Python code.
+
+A: 
