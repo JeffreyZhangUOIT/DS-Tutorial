@@ -23,4 +23,7 @@ PEP 8​ that instruct programmers how to write Python code so that it has a
 consistent style with other programmers. Read through the following article and
 discuss three important guidelines for writing Python code.
 
-A: 
+A: When writing python code, it is always a good idea to stay consistant in formatting. The most important thing is to stay consistant,
+since wildly changing formatting is much harder to comprehend then poor formatting. The goal of this guide is to enhance readability
+of code, so programmers should always choose to format their code in the format that suits it the best. Finally, when in doubt, 
+use your own judgement to format code. It is better to have completed code then agony over formatting issues.
