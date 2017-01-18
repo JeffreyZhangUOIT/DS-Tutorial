@@ -12,3 +12,7 @@ Q3: Python is also a strongly typed language, research what this means in Python
 the issues of strongly typed languages using one line of Python code.
 
 A: 
+
+Q4: Does Python require curly braces? What is the purpose of indentation in Python? Can you mix and match indentation using space and tab characters?
+
+A: No. It requires indentation. Indentation will aid in formatting the code for methods and makes it look clean and easy to read. You cannot mix and match indentation using space and tab characters. They will be interpretted differently.
