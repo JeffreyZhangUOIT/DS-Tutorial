@@ -1,4 +1,5 @@
-Q1:
-1 What type of programming language is Python? Why is it not a compiled programming language?
+Q1:What type of programming language is Python? Why is it not a compiled programming language?
 Python is an interpreted, object-oriented, high-level programming language with dynamic semantics. Its high-level built in data structures, combined with dynamic typing and dynamic binding, make it very attractive for Rapid Application Development, as well as for use as a scripting or glue language to connect existing components together
 It’s not a compiled program language because in Python the runtime doesn't know what value is in a variable right until the line is reached by the interpreter. This is extremely important for structures, where in C++ or other compiled program, the compiler can easily tell the size of the structure and every location of its fields within memory during compilation. This gives it huge power in predicting how the data might be used and lets it optimize according to those predictions. No such thing is possible for languages like Python
+
+Q2: Python is a dynamically typed language, explain what that means and also explain what “duck typing” means.
