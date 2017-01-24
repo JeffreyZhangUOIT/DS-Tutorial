@@ -1,8 +1,8 @@
-#question 4
-file = open("input.txt", "r+")
-for line in file.readline():
+file = open("text.txt", "r")
+for line in file:
     if "teaching assistant" in line:
-        print line + "is awesome"
+        pos = line.find("teaching assistant")
+        print line[:(pos+18)] + " is awesome" + line[(pos+18):]
     else:
         print line
 
