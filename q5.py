@@ -1,9 +1,9 @@
 # Question 5: Animal Farm
-from abc import ABCMeta, abstractmethod
+import abc
 
 
 class Pet(object):
-    __metaclass__ = ABCMeta
+    __metaclass__ = abc.ABCMeta
 
     def __init__(self, name, age, sex):
         self.name = name
@@ -19,9 +19,11 @@ class Pet(object):
     def get_sex(self):
         return self.sex
 
+    @abc.abstractmethod
     def speak(self):
         pass
 
+    @abc.abstractmethod
     def get_type(self):
         pass
 
