@@ -1,5 +1,7 @@
 # Question 5: Animal Farm
 from abc import ABCMeta, abstractmethod
+
+
 class Pet(object):
     __metaclass__ = ABCMeta
 
@@ -23,8 +25,8 @@ class Pet(object):
     def get_type(self):
         pass
 
-class Dog(Pet):
 
+class Dog(Pet):
     def speak(self):
         return "Bark Bark!"
 
