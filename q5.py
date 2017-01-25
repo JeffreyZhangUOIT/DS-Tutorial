@@ -38,5 +38,3 @@ class Cat(Pet):
 
     def get_type(self):
         return "Cat"
-
-
