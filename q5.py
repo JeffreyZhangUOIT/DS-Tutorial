@@ -10,15 +10,12 @@ class Pet(object):
         self.age = age
         self.sex = sex
 
-    @abc.abstractmethod
     def get_age(self):
         return self.age
 
-    @abc.abstractmethod
     def get_name(self):
         return self.name
 
-    @abc.abstractmethod
     def get_sex(self):
         return self.sex
 
@@ -33,7 +30,7 @@ class Pet(object):
 
 class Dog(Pet):
     def speak(self):
-        return "Bark Bark!"
+        print "Bark Bark!"
 
     def get_type(self):
         return "Dog"
@@ -41,7 +38,26 @@ class Dog(Pet):
 
 class Cat(Pet):
     def speak(self):
-        return "Meow!"
+        print "Meow!"
 
     def get_type(self):
         return "Cat"
+
+
+cat = Cat("Nyan", 2, "female")
+dog = Dog("Doge", 1, "male")
+
+
+print "--------------------------------------------"
+print "Name of the pet: "+dog.get_name()
+print "Age of the pet: "+str(dog.get_age())
+print "Sex of the pet: "+dog.get_sex()
+print "Type of the pet: "+dog.get_type()
+dog.speak()
+print "--------------------------------------------"
+print "Name of the pet: "+cat.get_name()
+print "Age of the pet: "+str(cat.get_age())
+print "Sex of the pet: "+cat.get_sex()
+print "Type of the pet: "+cat.get_type()
+cat.speak()
+print "--------------------------------------------"
