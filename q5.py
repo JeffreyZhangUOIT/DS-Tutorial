@@ -10,12 +10,15 @@ class Pet(object):
         self.age = age
         self.sex = sex
 
+    @abc.abstractmethod
     def get_age(self):
         return self.age
 
+    @abc.abstractmethod
     def get_name(self):
         return self.name
 
+    @abc.abstractmethod
     def get_sex(self):
         return self.sex
 
